@@ -27,4 +27,11 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 
 # Candidate Notes:
 
-### Fill in comments, external tool usage, and time tracking
+### 
+Brief: A tabular display of the routes that our rock star friends should take in order of closest to home -> furthest from home! Features OOP, custom table design, and no frameworks or libraries included!
+
+Notes: Was going to use Google Maps API w/ waypoints to visually plot the data but there is a max of 50 waypoints at a time. That added maybe ~20 minutes to my time but lesson learned!
+
+External Tools: No external tooling
+
+Time Tracking: Project start at 4:15pm. Finished around 8pm :)
