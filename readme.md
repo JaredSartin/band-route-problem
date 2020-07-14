@@ -27,4 +27,8 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 
 # Candidate Notes:
 
-### Fill in comments, external tool usage, and time tracking
+### * Band Route Problem Revised! *
+
+In preparation for our meeting about this assignment I've allowed myself a little more time to make couple of QOL updates! 
+
+This revision features more comments, better project structure, a better formula (to compare to my homebrew one), and a cleaner tabular display in general! Please let me know if there are any issues with vieiwing these files or if you'd prefer them delivered in any other way. Thank you!
