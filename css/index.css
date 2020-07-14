@@ -1,0 +1,181 @@
+/*-------------------------------------------------------------------------------------------------
+Font Imports
+-------------------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('/fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('/fonts/Montserrat-Black.ttf');
+}
+
+/*-------------------------------------------------------------------------------------------------
+Global Styles
+-------------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html, body, #app {
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+body {
+  background: #e4e8f0;
+}
+section, .container, .wrapper {
+  display: flex;
+}
+
+/*-------------------------------------------------------------------------------------------------
+App Content
+-------------------------------------------------------------------------------------------------*/
+#app {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 25px 25px rgba(0,0,0,.075);
+}
+
+/*-------------------------------------------------------------------------------------------------
+Nav Section Styles
+-------------------------------------------------------------------------------------------------*/
+#section_nav {
+  width: 100%;
+  background: #333;
+  border-bottom: solid 1px #eaeaea;
+  padding: 25px;
+}
+#section_nav a {
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Tab Section Styles
+-------------------------------------------------------------------------------------------------*/
+#section_tabs {
+  flex-direction: column;
+  width: 20%;
+  padding: 5% 0;
+  height: 100%;
+  border-right: solid 1px #eaeaea;
+  background: #fff;
+}
+#section_tabs .container {
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+#section_tabs .container .wrapper {
+  width: 100%;
+}
+#section_tabs .container .wrapper h1 {
+  width: 100%;
+  font-weight: 600;
+  padding: 18px 0;
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  pointer-events: none !important;
+}
+#section_tabs .container .wrapper.active {
+  background: #c34646;
+  border-left: solid 7px #630000;
+}
+#section_tabs .container .wrapper.active h1 {
+  color: #fff
+}
+#section_tabs .container .wrapper.tab:hover {
+  cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Data Section Styles
+-------------------------------------------------------------------------------------------------*/
+#section_data {
+  background: #fafafa;
+  width: 80%
+}
+#section_data .container {
+  margin: 5% auto auto 5%;
+  width: 90%;
+  flex-direction: column;
+  max-width: 1000px;
+}
+#container_title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+#section_data .container .wrapper {
+  width: 100%;
+  color: #000;
+  margin: 25px 0;
+  border-bottom: solid 1px #dadada;
+}
+#section_data .container #wrapper_title {
+  width: 100%;
+  background: #fff;
+  color: #999999;
+  box-shadow: 0 0 10px rgba(0,0,0,.05);
+  border-radius: 5px;
+  margin: 25px 0;
+}
+
+#section_data .container .wrapper p {
+  margin: auto 25px auto 25px;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  text-align: left;
+}
+
+#section_data .container .wrapper p:first-of-type  {
+  width: 200px
+}
+
+#section_data .container .wrapper p:last-of-type  {
+  margin: auto 25px auto auto;
+  text-align: right;
+}
+
+#wrapper_title {
+  margin: 25px 0 0 0 !important;
+  background: #fff;
+  color: #999999;
+  box-shadow: 0 0 10px rgba(0,0,0,.05);
+  border-radius: 5px;
+  margin: 25px 0;
+  border-bottom: none !important;
+}
+#wrapper_title p {
+  padding: 20px 0 !important;
+  font-weight: 600 !important;
+}
+
+/*-------------------------------------------------------------------------------------------------
+App Data Container Styles
+-------------------------------------------------------------------------------------------------*/
+#app_data {
+  height: 60vh;
+  overflow: auto;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2029 ROCK ROUTE CHALLENGE</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div id="app">
+    <section id="section_nav">
+      <a href="#">2092 ROCK ROUTE CHALLENGE</a>
+    </section>
+    <section id="section_tabs">
+      <div class="container">
+        <div id="initial_tab" class="wrapper tab active" value="40"><h1>Route 1</h1></div>
+        <div class="wrapper tab" value="200"><h1>Route 2</h1></div>
+        <div class="wrapper tab" value="500"><h1>Route 3</h1></div>
+      </div> 
+    </section>
+    <section id="section_data">
+      <div class="container">
+        <h1 id="container_title">VENUES TO ROCK</h1>
+        <div id="wrapper_title" class="wrapper">
+          <p>Distance From Home (km)<span id="home_distance"></span></p>
+          <p>Latitude</p>
+          <p>Longitude</p>
+          <p>Order</p>
+        </div>
+        <span id="app_data">
+          <!-- DATA INSERT HERE -->
+        </span>
+      </div>
+    </section>
+  </div>
+  <script src="./js/setEvents.js"></script>
+  <script src="./js/RouteCalculator.js"></script>
+  <script src="./js/initPage.js"></script>
+</body>
+</html>
