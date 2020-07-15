@@ -6,9 +6,7 @@ We have provided some test data to begin mapping on the grid. Spend up to 4 hour
 
 # The Tech
 
-Please use JavaScript, HTML, and CSS to display the best route(s) the band can take. Let's assume the first data point is home, the point you originate from and must end at. It is up to you to display the route(s) your code chooses, graphical, textual, tabular or other. *Please do not use Angular, React, Vue, Ember, etc. We want to see the solve and the display of the data. You can use libraries that help display tabular or graphical data in the browser.*
-
-We will review the code with you, be prepared to discuss any choices of external libraries. If you need to use an external library, that's fine, please note it in the readme.md.
+Please use JavaScript, HTML, and CSS to display the best route(s) the band can take. Let's assume the first data point is home, the point you originate from and must end at. It is up to you to display the route(s) your code chooses, graphical, textual, tabular or other. We will review the code with you, be prepared to discuss any choices of external libraries. If you need to use an external library, that's fine, please note it in the readme.md.
 
 # The Data
 
